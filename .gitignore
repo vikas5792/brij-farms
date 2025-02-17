@@ -1,1 +1,39 @@
+# Node.js dependencies
 node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.sequelizerc
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database files
+*.sqlite
+*.sqlite-journal
+
+# Sequelize files
+config/config.json
+config/database.js
+# Compiled files
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploaded files
+uploads/
